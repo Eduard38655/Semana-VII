@@ -1,0 +1,29 @@
+Algoritmo buscar_numeros
+	Escribir "Ingresa numeros para saber la media de los numeros"
+	Escribir "Ingresa el total de numeros que quieres ingresar."
+	leer numbers
+	Dimension ingresar[numbers]
+	suma<-0
+	 
+	Para w<-1 Hasta numbers Con Paso 1 Hacer
+		Escribir "Ingresa un numero para encontrar la media."
+		Leer ingresar[w]
+		suma<-suma+ingresar[w]
+		
+		
+	Fin Para
+	Escribir "La suma seria."
+	Escribir suma
+	Escribir "La media seria."
+	Escribir suma/numbers
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+FinAlgoritmo

@@ -1,0 +1,32 @@
+Algoritmo buscar_matriz_sumar
+	Escribir "Ingresa el total de numeros que quieres ingresar en el vector."
+	Leer recorer
+Dimension  matriz[recorer]
+
+nummayor<-0
+num_menor<-0
+Para i<-1 Hasta recorer Con Paso 1 Hacer
+	Escribir "Ingresa un numeros para ingresarlo en el vector."
+	Leer matriz[i]
+	num_mayor<-matriz[1]
+	num_menor<-matriz[1]
+Fin Para
+	
+Para w<-1 Hasta recorer Con Paso 1 Hacer
+	
+	Si matriz[w]> num_mayor Entonces
+		num_mayor<-matriz[w]
+	Fin Si
+	Si matriz[w] <num_menor Entonces
+	
+		num_menor<-matriz[w]
+		
+	Fin Si
+	Fin Para
+	
+	Escribir "El numero",num_mayor " es mayor."
+	Escribir "El numero " ,num_menor, " es menor."
+
+
+	
+FinAlgoritmo
